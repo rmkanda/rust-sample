@@ -1,0 +1,13 @@
+[package]
+name = "rust-sample"
+version = "0.1.0"
+authors = ["Ramakrishnan Kandasamy <rmkanda@thoughtworks.com>"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+[dependencies.rustbreak]
+version = "2"
+features = ["ron_enc"]
